@@ -1,26 +1,26 @@
-# Your First Angular Application
+# 🌟 Tu Primera Aplicación de Angular 🌟
 
-## 1. String interpolation
+## 1. String interpolation 🎒
 
-Your application is running and working. Good 👌, now it's time to start making some changes:
+Tu aplicación está corriendo y funcionando. Bien 👌, ahora es momento de empezar a hacer algunos cambios:
 
-One cool feature of Angular is called **string interpolation**. It allows you to bind your variables to your template. So let's start:
+Una las funcionalidad más geniales de Angular se llama **string interpolation**. Ésta te permite enlazar tus variables a tu vista. Así que empecemos:
 
-1. Go to your `app.component.ts` file.
-2. Find the `title` variable and replace its contents with something like: `"my application"`
-3. Save the file and check the result rendered automatically in the browser 👌👌👌
+1. Abre el archivo `app.component.ts`.
+2. Encuentra la variable `title` y reemplaza sus contenidos con algo como: `"my application"`
+3. Guarda el archivo y verifica que el resultado se ve reflejado en el navegador 👌👌👌
 
-Now let's do something more risky:
+Ahora hagamos algo más riesgoso:
 
-4. Let's add another variable to your `app.component.ts` file called `author`. 
-5. Assign your name to it like this: `author = 'Juan Herrera';`
-6. Save the file and go to the browser and make sure everything is still working.
+4. Agreguemos otra variable a tu archivo `app.component.ts` llamada `author`. 
+5. Asígnale tu nombre así: `author = 'Laura Ciro';`
+6. Guarda el archivo y ve al navegador para asegurarte que sigue funcionando.
 
-Everything is working but our new created variable is not showing up 😢
-Well we need to add it to your template 😅
+Al parecer todo sigue funcionando pero nuestra variable no se está mostrando 😢
+Bueno, es porque necesitamos agregarla a la vista 😅
 
-7. Go to the `app.component.html` file and add the following to your `h1` tag: `Welcome to {{title}} by {{author}}`
+7. Ve a al archivo `app.component.html` y agrega lo siguiente a la etiqueta `h1`: `Welcome to {{title}} by {{author}}`
 
-5. Go to the browser and make sure your name is there! 💕
+5. Ve al navegador y asegúrate que está allí! 💕
 
-## You are done, now go to [Branch #2](https://github.com/jdjuan/your-first-angular-application/tree/2)
+## Has terminado! 🎉🎉🎉 Ahora ve a el [Branch #2](https://github.com/angular-medellin/learn/tree/2)
