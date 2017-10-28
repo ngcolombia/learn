@@ -1,28 +1,28 @@
-# Your First Angular Application
+# 🌟 Tu Primera Aplicación de Angular 🌟
 
-## 1. Install Node, NPM and the Angular CLI
+## 1. Instala Node, NPM y el Angular CLI 🔌
 
-- Use the latest version of [Node](https://nodejs.org/en/) or make sure you are using version `6.9.0` or above
-- Install NPM (It generally comes with Node, so no worries) 😙
-- Install Angular CLI globally
+- Utiliza la última versión de [Node](https://nodejs.org/en/) asegúrate de usar la versión `6.9.0` o mayor.
+- Instala NPM (generalmente viene con Node, así que no te preocupes) 😙
+- Instala Angular CLI globalmente:
 	- `$ npm install @angular/cli -g`
 
-## 2. Verify
+## 2. Verifica 📋
 
-Make sure the installation went well by running:
+Asegúrate que la instalación resultó bien corriendo los siguientes comandos:
 
 - `$ node -v` -> Version 6.9.0 or above
 - `$ npm -v` -> Version 3.0.0 or above
 - `$ ng -v`-> Version 1.0.0 or above
 
-## 3. You are ready! Let's create an app
+## 3. Eso es todo! Creemos una aplicación 💪
 
-- Create a new application with: 
-	- `$ ng new myProject` (it should take a few minutes) ⏰
-- Enter your application folder with: 
+- Crea una nueva aplicación con este comando: 
+	- `$ ng new myProject` (debería tomar un par de minutos) ⏰
+- Entra en la carpeta:
 	- `$ cd myProject`
-- Serve your new application in the browser: 
+- Abre tu aplicación en el navegador así: 
 	- `$ ng serve -o`
-- If you see: "App Works", **you are done!** 🎉🎉🎉
+- Si ves: "App Works", **entonces has terminado!** 🎉🎉🎉
 
-# You are ready to go to [Branch #1](https://github.com/jdjuan/your-first-angular-application/tree/1)
+# Ya puedes ir al [Branch #1](https://github.com/angular-medellin/learn/tree/1)
