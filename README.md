@@ -1,23 +1,23 @@
-# Your First Angular Application
+# 🌟 Tu Primera Aplicación de Angular 🌟
 
-## 3. Event binding
+## 3. Event binding 😎
 
-Event binding allows us to attach events to elements or components e.g. Click, Keyup, among others ✌️
+Event binding nos permite añadir eventos a elementos o componentes. Por ejemplo: `click`, `keyup`, entre otros ✌️
 
-Let's start attaching our first event:
+Empecemos añadiendo nuestro primer evento:
 
-1. Go to `app.component.html` and erase all the content except for own component `app-my-component`.
-2. Now let's create a button: `<button>Click me</button>` and verify in the browser 👌
+1. Ve a `app.component.html` y borra todo el contenido excepto nuestro propio componente: `app-my-component`.
+2. Ahora creemos un botón: `<button>Click me</button>` y verifica en el navegador 👌
 
-3. Go to your `app.component.ts` file and create a new variable called **count** and initialized on **0**: `count = 0;`
-3. Well, here is your first mission: Use **String Interpolation** to render our new variable. 🤡 Let the game begin.. 🤡
+3. Ve a tu archivo `app.component.ts` y crea una nueva variable llamada **count** inicializándola en **0**: `count = 0;`
+3. Bien, ésta es tu primera misión: Usa **String Interpolation** para mostrar la nueva variable. 🤡 Qué empiece el juego.. 🤡
 
-You ready? Cool! I knew you could! 💪
+Acabaste? Muy bien! Sabía que podías! 💪
 
-4. It's time to attach our event, go to our button and update it accordingly: `<button (click)="count = count + 1" >Click me</button>`
+4. Es momento de añadir nuestro evento. Ve a nuestro botón y actualízalo así: `<button (click)="count = count + 1" >Click me</button>`
 
-5. Go to the browser and test it!
+5. Ve al navegador y prúebalo!
 
-6. Did it work? Was it easy? Cooool! 🎉🎉🎉
+6. Funcionó? Fue fácil? Cooool! 🎉🎉🎉
 
-## You are done, now go to [Branch #4](https://github.com/jdjuan/your-first-angular-application/tree/4)
+## Has termiando, ahora ve al [Branch #4](https://github.com/angular-medellin/learn/tree/4)
