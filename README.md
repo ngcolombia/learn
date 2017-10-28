@@ -1,31 +1,31 @@
-# Your First Angular Application
+# 🌟 Tu Primera Aplicación de Angular 🌟
 
-## 4. Property binding
+## 4. Property binding 🎮
 
-Property binding allows us to set a property to our elements or components ✌️
+Property binding nos permite definir una propiedad a nuestros elementos o componentes ✌️
 
-Let's start using it 🤡:
+Empecemos a usarlo 🤡:
 
-1. Go to `app.component.html` and create an **img** tag like this: `<img>`
+1. Ve a `app.component.html` y crea un elemento **img** como éste: `<img>`
 
-2. No image should be rendered because we are missing the `src` attribute. Instead of adding it directly, let's start using property binding!
+2. Ninguna imagen debería mostrarse porque no hemos agregado el atributo `src`. En vez de agregarlo directamente, utilizaremos **property binding!**
 
-3. Go to your `app.component.ts` file and create a variable called **imageSource** and assing the content like this: `imgSource = './../favicon.ico';`
+3. Ve a tu `app.component.ts` y crea una variable llamada **imageSource**. Asígnale el siguiente contenido: `imgSource = './../favicon.ico';`
 
-4. The final step is update our img tag like this: `<img [src]="imgSource">`
+4. El útlimo paso es actualizar la etiqueta `img` así: `<img [src]="imgSource">`
 
-Did it work!? Coool 💪 That's it! It's simple 😁
+Funcionó!? Coool 💪 Eso es todo! Es simple! 😁
 
-## Your mission
+## Tu misión 
 
-Create an `input` tag and enable it or disable it through the clicking of a button.
+Crea una etiqueta `input` y habilítala o desabilítala cuando se oprima un botón.
 
 ### Tips:
 
-1. Don't forget you need a variable to make this work, I would call it: `enabled`
-2. Use the `[disabled]` property
-3. Use the `click` event binding to change the variable!
+1. No olvides usar una variable para lograrlo. Yo la llamaría: `enabled`
+2. Usa la propiedad `[disabled]`
+3. Usa el event binding `click` para cambiar la variable!
 
-Good Luck! 🤡🤡🤡 and thank you for your time!
+Buena suerte! 🤡🤡🤡 y gracias por tu tiempo!
 
 ![Once there was a repository and you gave it a star](https://i.imgflip.com/1q7vwr.jpg)
