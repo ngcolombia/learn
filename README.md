@@ -1,27 +1,27 @@
-# Your First Angular Application
+# 🌟 Tu Primera Aplicación de Angular 🌟
 
-## 2. Component Creation
+## 2. Creación de Componentes
 
-So we already applied String Interpolation to our application, now it's time to go a little more in deep. Let's start creating our own component 📦
+Así que ya aplicaste **String Interpolation** a nuestra aplicación 😏 Ahora es momento de ahondar un poco más. Empecemos creando nuestro propio componente 📦
 
-1. Let's open the terminal and navigate to your application folder
-2. Inside run the following command: `$ ng generate component myComponent`
-3. You will notice some output where it created 4 files and update one. Take a look at them.
+1. Abre la terminal y navega a la carpeta donde está nuestra aplicación
+2. Allí, corre el comando: `$ ng generate component myComponent`
+3. Notarás como la terminal nos dice que se han creado 4 archivos y actualizó. Echales un ojo.
 
 ![Output](output.png)
 
-**A component(component.ts) is typically constituted of styles (css), template (html) and tests(specs.ts).**
+**Un componente(component.ts) está generalmente constituido de estilos(css), una vista(html) y pruebas unitarias(specs.ts).**
 
-The **template** holds something like this by default: `<p>my-component works!</p>`
+La **vista** tiene algo así por defecto: `<p>my-component works!</p>`
 
-4. Now, let's open our component: `my-component.component.ts`
-5. Pay attention to the selector tag, it should be something like: `app-my-component`
+4. Ahora, abramos nuestro componente: `my-component.component.ts`
+5. Presta atención a la etiqueta que aparece en la propiedad `selector`, debe tener algo así: `app-my-component`
 
-> The `selector` is the tag you can use to render your component inside another template. 
+> El `selector` es la etiqueta que puedes utilizar para renderizar tu componente dentro de una vista.
 
-So now that we know our component tag we can use it inside our app component (**the original component we worked on**).
+Así que ahora que conocemos nuestro `selector` podemos utilizarlo en nuestro componente `app`(**el primer componente en el que trabajamos**).
 
-6. Go to `app.component.html` and add this next to the `h1` tags: `<app-my-component></app-my-component>`
-7. Check your app in the browser! 💕
+6. Ve a `app.component.html` agrega lo siguiente: `<app-my-component></app-my-component>`
+7. Verifica en el navegador! 💕
 
-## You are done, now go to [Branch #3](https://github.com/jdjuan/your-first-angular-application/tree/3)
+## Has terminado 🎉🎉🎉, ahora ve al [Branch #3](https://github.com/angular-medellin/learn/tree/3)
