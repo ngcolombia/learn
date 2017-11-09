@@ -6,11 +6,11 @@ Property binding nos permite definir una propiedad a nuestros elementos o compon
 
 Empecemos a usarlo 🤡:
 
-1. Ve a `app.component.html` y crea un elemento **img** como éste: `<img>`
+1. Ve a `my-component.component.html` y crea un elemento **img** como éste: `<img>`
 
 2. Ninguna imagen debería mostrarse porque no hemos agregado el atributo `src`. En vez de agregarlo directamente, utilizaremos **property binding!**
 
-3. Ve a tu `app.component.ts` y crea una variable llamada **imageSource**. Asígnale el siguiente contenido: `imgSource = './../favicon.ico';`
+3. Ve a tu `my-component.component.ts` y crea una variable llamada **imgSource**. Asígnale el siguiente contenido: `imgSource = './../favicon.ico';`
 
 4. El útlimo paso es actualizar la etiqueta `img` así: `<img [src]="imgSource">`
 
