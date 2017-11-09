@@ -14,8 +14,8 @@ export class MyComponentComponent implements OnInit {
   ngOnInit() {
   }
 
-  add(){
-    this.count +=1;
+  countUp() {
+    this.count += 1;
   }
 
 }
