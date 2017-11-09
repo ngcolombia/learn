@@ -20,6 +20,16 @@ Acabaste? Muy bien! Sabía que podías! 💪
 
 6. Ve al navegador y prúebalo!
 
+Como puedes ver, podemos ejecutar código de typescript en el evento `(click)` ... Pero se ve un poco mal, no crees? :no_mouth:
+Vamos a mejorarlo un poco...
+
+7. En el archivo `my-component.component.ts` vamos a crear una función llamada `add()` y en ella vamos a colocar el contenido que teníamos en el evento `(click)` del botón. 
+Pista: Recuerda que en los controladores, las variables las debemos llamar como `this.nombreDeLaVariable`
+
+8. Ahora vamos a cambiar el contenido del evento `(click)` en el botón por `(click)="add()"`
+
+9. Ahora prueba en tu navegador, nada debería cambiar :heartpulse:
+
 Funcionó? Fue fácil? Cooool! 🎉🎉🎉
 
 ## Has terminado, ahora ve al [Branch #4](https://github.com/angular-medellin/learn/tree/4)
